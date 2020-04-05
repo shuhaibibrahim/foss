@@ -1,0 +1,25 @@
+#AUTHOR : Shuhaib Ibrahim
+
+#DATE : 23-03-2020
+
+#PROGRAM DESCRIPTION :  This shell script is used to find
+#                       the smallest of 3 numbers that
+#                       read from the user
+
+#INPUT FORMAT : 3 numbers with space in between them
+
+#OUPUT FORMAT : smallest of the 3 numbers is printed as output
+
+#OS TYPE : linux-gnu
+
+#!/bin/bash
+
+if test -f $1
+then
+	echo "$1 is an ordinary file"
+elif test -d $1
+then
+	echo "$1 is a directory file"
+else
+	echo "$1 does not exists"
+fi
